@@ -45,6 +45,9 @@
 /*--------------------------------------------------------------
 # Utility
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 .mt-20 {
   margin-top: 20px;
 }
@@ -2006,12 +2009,16 @@ h6 {
   position: relative;
 }
 
+
+
 .logo-text {
   color: #101010;
-  font-size: 18px;
-  margin-top: 15px;
+  font-size: 20px;
+  margin-top: 19px;
   margin-left: 10px;
   font-weight: 700;
+  font-family: 'Press Start 2P', cursive;
+
 }
 
 .main-menu {
