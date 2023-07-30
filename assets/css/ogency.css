@@ -2010,17 +2010,6 @@ h6 {
 }
 
 
-
-.logo-text {
-  color: #101010;
-  font-size: 20px;
-  margin-top: 19px;
-  margin-left: 10px;
-  font-weight: 700;
-  font-family: 'Press Start 2P', cursive;
-
-}
-
 .main-menu {
   background-color: transparent;
   position: absolute;
@@ -2042,6 +2031,15 @@ h6 {
   .main-menu {
     padding: 0 12px;
   }
+}
+
+.logo-text {
+  color: #101010;
+  font-size: 20px;
+  margin-top: 19px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .main-menu__logo {
