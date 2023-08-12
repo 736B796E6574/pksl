@@ -3474,6 +3474,18 @@ h6 {
   color: var(--ogency-base);
 }
 
+.main-slider__one-item__shape-1 img,
+.main-slider__one-item__shape-2 img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.main-slider__one-item__shape-1 img {
+  object-fit: contain;
+  object-position: center;
+  width: 25%;
+}
+
 /*-- Hero Banner --*/
 .hero-banner {
   position: relative;
