@@ -16,7 +16,7 @@ SECRET_KEY = 'django-insecure-m6(yidpcd1ytkb+h0)=1k=hekmwat3iqea^osy75b$+srjcfg%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-736b796e6574-pksl-vscjgbev1tv.ws-eu103.gitpod.io',]
+ALLOWED_HOSTS = ['8000-736b796e6574-pksl-vscjgbev1tv.ws-eu103.gitpod.io', 'pksl.onrender.com']
 
 
 # Application definition
