@@ -17,7 +17,7 @@
 
 .main-slider__one-item__shape-1 img,
 .main-slider__one-item__shape-2 img {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .client-carousel .client-carousel__one .client-carousel__one__item img:hover {
@@ -77,4 +77,8 @@
 
 .team-one__item__links {
   background-color: var(--ogency-black2);
+}
+
+.mobile-nav__content .main-menu__list li > a {
+  color: #000000;
 }

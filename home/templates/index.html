@@ -113,7 +113,7 @@ background-image: url('{% static "images/PKSL-logo-color-pixelated.png" %}');   
         <nav class="main-menu">
           <div class="container-fluid">
             <div class="main-menu__logo">
-              <a href="index.html">
+              <a href="{% url 'index' %}">
                 <img
                   src="{% static 'images/PKSL-logo-bw-pixelated.png' %}"
                   width="34"
@@ -126,9 +126,9 @@ background-image: url('{% static "images/PKSL-logo-color-pixelated.png" %}');   
             <!-- /.main-menu__logo -->
             <div class="main-menu__nav">
               <ul class="main-menu__list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="{% url 'index' %}">Home</a></li>
+                <li><a href="{% url 'index' %}#services">Services</a></li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>
               </ul>
             </div>
             <!-- /.main-menu__nav -->
@@ -1110,7 +1110,7 @@ background-image: url('{% static "images/PKSL-logo-color-pixelated.png" %}');   
             class="main-footer__top wow fadeInUp animated"
             data-wow-delay="100ms"
           >
-            <a href="index.html" class="main-footer__logo">
+            <a href="{% url 'index' %}" class="main-footer__logo">
               <img
               src="{% static 'images/PKSL-logo-color-pixelated.png' %}"
               alt="ogency"
@@ -1151,8 +1151,8 @@ background-image: url('{% static "images/PKSL-logo-color-pixelated.png" %}');   
             >
               <div class="main-footer__navmenu">
                 <ul>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#team">Meet the Team</a></li>
+                  <li><a href="{% url 'index' %}#about">About</a></li>
+                  <li><a href="{% url 'index' %}#team">Meet the Team</a></li>
                 </ul>
                 <!-- /.list-unstyled -->
               </div>
@@ -1164,8 +1164,8 @@ background-image: url('{% static "images/PKSL-logo-color-pixelated.png" %}');   
             >
               <div class="main-footer__navmenu">
                 <ul>
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="#services">Services</a></li>
+                  <li><a href="{% url 'contact' %}">Contact</a></li>
+                  <li><a href="{% url 'index' %}#services">Services</a></li>
                 </ul>
                 <!-- /.list-unstyled -->
               </div>
@@ -1179,7 +1179,7 @@ background-image: url('{% static "images/PKSL-logo-color-pixelated.png" %}');   
           >
             © Copyright <span class="dynamic-year"></span
             ><!-- /.dynamic-year -->
-            by <a href="index.html">PKSL</a>
+            by <a href="{% url 'index' %}">PKSL</a>
           </p>
         </div>
         <!-- /.container -->
@@ -1196,7 +1196,7 @@ background-image: url('{% static "images/PKSL-logo-color-pixelated.png" %}');   
           ><i class="fa fa-times"></i
         ></span>
         <div class="logo-box">
-          <a href="index.html" aria-label="logo image"
+          <a href="{% url 'index' %}" aria-label="logo image"
             ><img
             src="{% static 'images/PKSL-logo-color-pixelated.png' %}"
             width="36"
