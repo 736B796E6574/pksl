@@ -14,9 +14,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-736b796e6574-pksl-vscjgbev1tv.ws-eu103.gitpod.io', 'pksl.onrender.com']
+ALLOWED_HOSTS = ['8000-736b796e6574-pksl-vscjgbev1tv.ws-eu103.gitpod.io', 'pksl.onrender.com', 'www.pksl.art']
 
 
 # Application definition
